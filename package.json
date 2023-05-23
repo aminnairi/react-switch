@@ -1,0 +1,6 @@
+{
+  "workspaces": [
+    "sources",
+    "example"
+  ]
+}

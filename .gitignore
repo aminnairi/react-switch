@@ -1,0 +1,7 @@
+/.npm
+/example/node_modules
+/node_modules
+/sources/build
+/.node_repl_history
+/.npmrc
+/package-lock.json

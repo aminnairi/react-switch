@@ -1,0 +1,50 @@
+{
+  "sideEffects": false,
+  "name": "@aminnairi/react-switch",
+  "types": "build/index.d.ts",
+  "description": "A simple JavaScript-like switch component for React written in TypeScript",
+  "version": "0.1.0",
+  "homepage": "https://github.com/aminnairi/react-switch/sources#readme",
+  "license": "MIT",
+  "exports": "./build/index.module.js",
+  "main": "build/index.common.js",
+  "browser": "build/index.browser.js",
+  "bugs": {
+    "url": "https://github.com/aminnairi/react-switch/issues"
+  },
+  "author": {
+    "name": "Amin NAIRI",
+    "url": "https://github.com/aminnairi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aminnairi/react-switch.git"
+  },
+  "files": [
+    "build"
+  ],
+  "keywords": [
+    "react",
+    "switch",
+    "condition",
+    "component",
+    "case",
+    "default",
+    "branch"
+  ],
+  "scripts": {
+    "build": "rollup --config rollup.config.ts --configPlugin esbuild",
+    "types": "tsc --project tsconfig.json --declaration --emitDeclarationOnly"
+  },
+  "devDependencies": {
+    "@rollup/plugin-terser": "0.4.3",
+    "@types/react": "*",
+    "rollup": "3.23.0",
+    "rollup-plugin-esbuild": "5.0.0",
+    "tslib": "2.5.2",
+    "typescript": "5.0.4"
+  },
+  "peerDependencies": {
+    "react": "*"
+  }
+}
