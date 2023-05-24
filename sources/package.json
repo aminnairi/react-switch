@@ -3,7 +3,7 @@
   "name": "@aminnairi/react-switch",
   "types": "build/index.d.ts",
   "description": "A simple JavaScript-like switch component for React written in TypeScript",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "homepage": "https://github.com/aminnairi/react-switch/tree/development/sources#readme",
   "license": "MIT",
   "exports": "./build/index.module.js",
