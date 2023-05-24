@@ -80,3 +80,7 @@ touch index.html
 ```bash
 npx vite
 ```
+
+## License
+
+See [`LICENSE`](../LICENSE).
