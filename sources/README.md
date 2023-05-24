@@ -4,16 +4,19 @@ A simple JavaScript-like switch component for React written in TypeScript
 
 ## Requirements
 
-- Node
-- NPM
+- [Node](https://nodejs.org/en)
+- [NPM](https://www.npmjs.com/)
 
-## Installation
+## Quick Start
 
 ```bash
-npm install @aminnairi/react-switch
+npm install react react-dom @aminnairi/react-switch
+npm install --save-dev vite @types/react @types/react-dom
 ```
 
-## Usage
+```bash
+touch main.tsx
+```
 
 ```typescript
 import React, { Fragment } from "react"
@@ -36,4 +39,44 @@ export const Main = () => {
     </Fragment>
   );
 };
+```
+
+```bash
+touch index.tsx
+```
+
+```typescript
+import React from "react";
+import { createRoot } from "react-dom/client";
+import { Main } from "./main";
+
+const rootElement = document.getElementById("root");
+
+if (!rootElement) {
+  throw new Error("Root element not found");
+}
+
+const root = createRoot(rootElement);
+
+root.render(
+  <Main />
+);
+```
+
+```bash
+touch index.html
+```
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <div id="root"></div>
+    <script src="./index.tsx" type="module"></script>
+  </body>
+</html>
+```
+
+```bash
+npx vite
 ```
