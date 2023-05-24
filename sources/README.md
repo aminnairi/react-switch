@@ -84,3 +84,7 @@ npx vite
 ## License
 
 See [`LICENSE`](../LICENSE).
+
+## Contributing
+
+See [`CONTRIBUTING.md`](../CONTRIBUTING.md).
