@@ -3,7 +3,7 @@
   "name": "@aminnairi/react-switch",
   "types": "build/index.d.ts",
   "description": "A simple JavaScript-like switch component for React written in TypeScript",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "homepage": "https://github.com/aminnairi/react-switch/tree/development/sources#readme",
   "license": "MIT",
   "exports": "./build/index.module.js",
@@ -40,6 +40,7 @@
     "@rollup/plugin-terser": "0.4.3",
     "@types/react": ">=16.8.0",
     "rollup": "3.23.0",
+    "rollup-plugin-delete": "2.0.0",
     "rollup-plugin-esbuild": "5.0.0",
     "tslib": "2.5.2",
     "typescript": "5.0.4"
