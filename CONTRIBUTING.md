@@ -16,35 +16,35 @@ cd react-switch
 ## Docker Compose Startup
 
 ```bash
-docker compose up --detach
+make start
 ```
 
 ## Dependencies Installation
 
 ```bash
-docker compose exec node npm install
+make install
 ```
 
 ## Package Build
 
 ```bash
-docker compose exec node npm --workspace sources run build
+make build
 ```
 
 ## Type Definition Build
 
 ```bash
-docker compose exec node npm --workspace sources run types
+make types
 ```
 
 ## Example Startup
 
 ```bash
-docker compose exec node npm --workspace example start
+make example
 ```
 
 ## Publishing
 
 ```bash
-docker compose exec node npm --workspace sources publish --access public
+make publish
 ```
