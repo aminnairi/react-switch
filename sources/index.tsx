@@ -21,6 +21,7 @@ export const Default = ({ children }: DefaultProps) => {
   return children
 }
 
+
 export const Switch = ({ children }: SwitchProps) => {
   const childrenArray = Children.toArray(children);
 
@@ -34,7 +35,7 @@ export const Switch = ({ children }: SwitchProps) => {
   const fallbackElementFound = childrenArray.find((child) => {
     return isValidElement(child)
       && typeof child.type === "function"
-      && child.type.name === Default.name
+      && (child.type.name === Default.name || child.type.name === DefaultSwitch.name)
   });
 
   if (matchingElementFound && isValidElement(matchingElementFound)) {
@@ -47,3 +48,5 @@ export const Switch = ({ children }: SwitchProps) => {
 
   return null;
 }
+
+export const DefaultSwitch = Switch;
