@@ -38,13 +38,13 @@
   },
   "devDependencies": {
     "@rollup/plugin-terser": "0.4.3",
-    "@types/react": "*",
+    "@types/react": ">=16.8.0",
     "rollup": "3.23.0",
     "rollup-plugin-esbuild": "5.0.0",
     "tslib": "2.5.2",
     "typescript": "5.0.4"
   },
   "peerDependencies": {
-    "react": "*"
+    "react": ">=16.8.0"
   }
 }
