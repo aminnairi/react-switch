@@ -1,6 +1,14 @@
-.PHONY: install build types publish
+.PHONY: start stop restart install build types publish
 
-install:
+start:
+	docker compose up --detach
+
+stop:
+	docker compose down --remove-orphans --volumes --timeout 0
+
+restart: stop start
+
+install: start
 	docker compose exec node npm install
 
 build: install
