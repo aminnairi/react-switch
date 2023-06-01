@@ -29,5 +29,5 @@ publish: types
 example: install
 	docker compose exec $(DOCKER_COMPOSE_EXEC_OPTIONS) node npm --workspace example start
 
-test: install
+test: build
 	docker compose exec $(DOCKER_COMPOSE_EXEC_OPTIONS) node npm --workspace @aminnairi/react-switch test
