@@ -1,4 +1,4 @@
-.PHONY: start stop restart install build types publish example
+.PHONY: start stop restart install build types publish example test
 
 start:
 	docker compose up --detach
@@ -22,3 +22,6 @@ publish: types
 
 example: install
 	docker compose exec node npm --workspace example start
+
+test: install
+	docker compose exec node npm --workspace @aminnairi/react-switch test
