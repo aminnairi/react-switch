@@ -113,6 +113,53 @@ touch index.html
 npx vite
 ```
 
+## API
+
+### Switch
+
+```typescript
+import { ReactNode } from "react";
+
+export interface SwitchProps {
+  children: ReactNode;
+}
+
+export declare const Switch: ({ children }: SwitchProps) => ReactNode;
+```
+
+### Case
+
+```typescript
+import { ReactNode } from "react";
+
+export interface CaseProps {
+  when: boolean;
+  children: ReactNode;
+}
+
+export declare const Case: ({ children }: CaseProps) => ReactNode;
+```
+
+### Default
+
+```typescript
+import { ReactNode } from "react";
+
+export interface DefaultProps {
+  children: ReactNode;
+}
+
+export declare const Default: ({ children }: DefaultProps) => ReactNode;
+```
+
+### DefaultSwitch
+
+```typescript
+import { ReactNode } from "react";
+
+export declare const DefaultSwitch: ({ children }: SwitchProps) => ReactNode
+```
+
 ## License
 
 See [`LICENSE`](../LICENSE).
