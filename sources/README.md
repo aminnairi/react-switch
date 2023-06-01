@@ -2,7 +2,7 @@
 
 A simple JavaScript-like switch component for React written in TypeScript
 
-[![NPM](https://badgen.net/npm/v/@aminnairi/react-switch)](https://www.npmjs.com/package/@aminnairi/react-switch)
+[![NPM](https://badgen.net/npm/v/@aminnairi/react-switch)](https://www.npmjs.com/package/@aminnairi/react-switch) [![Bundlephobia](https://badgen.net/bundlephobia/minzip/@aminnairi/react-switch)](https://bundlephobia.com/package/@aminnairi/react-switch)
 
 ## Summary
 
