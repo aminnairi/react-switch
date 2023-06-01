@@ -2,10 +2,26 @@
 
 A simple JavaScript-like switch component for React written in TypeScript
 
+
+## Summary
+
+- [Requirements](#requirements)
+- [Quick Start](#quick-start)
+- [API](#api)
+  - [Switch](#switch)
+  - [Case](#case)
+  - [Default](#default)
+  - [DefaultSwitch](#defaultswitch)
+- [License](#license)
+- [Contributing](#contributing)
+- [Changelog](#changelog)
+
 ## Requirements
 
 - [Node](https://nodejs.org/en)
 - [NPM](https://www.npmjs.com/)
+
+[Back to summary](#summary).
 
 ## Quick Start
 
@@ -113,7 +129,11 @@ touch index.html
 npx vite
 ```
 
+[Back to summary](#summary).
+
 ## API
+
+[Back to summary](#summary).
 
 ### Switch
 
@@ -126,6 +146,8 @@ export interface SwitchProps {
 
 export declare const Switch: ({ children }: SwitchProps) => ReactNode;
 ```
+
+[Back to summary](#summary).
 
 ### Case
 
@@ -140,6 +162,8 @@ export interface CaseProps {
 export declare const Case: ({ children }: CaseProps) => ReactNode;
 ```
 
+[Back to summary](#summary).
+
 ### Default
 
 ```typescript
@@ -152,6 +176,8 @@ export interface DefaultProps {
 export declare const Default: ({ children }: DefaultProps) => ReactNode;
 ```
 
+[Back to summary](#summary).
+
 ### DefaultSwitch
 
 ```typescript
@@ -160,14 +186,22 @@ import { ReactNode } from "react";
 export declare const DefaultSwitch: ({ children }: SwitchProps) => ReactNode
 ```
 
+[Back to summary](#summary).
+
 ## License
 
 See [`LICENSE`](../LICENSE).
+
+[Back to summary](#summary).
 
 ## Contributing
 
 See [`CONTRIBUTING.md`](../CONTRIBUTING.md).
 
+[Back to summary](#summary).
+
 ## Changelog
 
 See [`CHANGELOG.md`](./CHANGELOG.md).
+
+[Back to summary](#summary).
