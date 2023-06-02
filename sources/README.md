@@ -191,18 +191,19 @@ export declare const DefaultSwitch: ({ children }: SwitchProps) => ReactNode
 
 ## License
 
-See [`LICENSE`](../LICENSE).
+See [`LICENSE`](https://github.com/aminnairi/react-switch/blob/development/LICENSE).
+
 
 [Back to summary](#summary).
 
 ## Contributing
 
-See [`CONTRIBUTING.md`](../CONTRIBUTING.md).
+See [`CONTRIBUTING.md`](https://github.com/aminnairi/react-switch/blob/development/CONTRIBUTING.md).
 
 [Back to summary](#summary).
 
 ## Changelog
 
-See [`CHANGELOG.md`](./CHANGELOG.md).
+See [`CHANGELOG.md`](https://github.com/aminnairi/react-switch/blob/development/sources/CHANGELOG.md).
 
 [Back to summary](#summary).
