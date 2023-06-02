@@ -21,7 +21,7 @@
 
 ## 0.4.1
 
-- TODO
+- Publishing automation ([#26](https://github.com/aminnairi/react-switch/pull/26))
 
 ## 0.4.0
 
