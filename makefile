@@ -1,4 +1,4 @@
-.PHONY: start stop restart install build types publish example test
+.PHONY: start stop restart install build types publish example example-build test
 
 DOCKER_COMPOSE_EXEC_OPTIONS=
 
@@ -14,7 +14,7 @@ stop:
 
 restart: stop start
 
-install: start
+install:
 	docker compose exec $(DOCKER_COMPOSE_EXEC_OPTIONS) node npm install
 
 build: install
@@ -28,6 +28,9 @@ publish: types
 
 example: install
 	docker compose exec $(DOCKER_COMPOSE_EXEC_OPTIONS) node npm --workspace example start
+
+example-build: build
+	docker compose exec $(DOCKER_COMPOSE_EXEC_OPTIONS) node npm --workspace example run build
 
 test: build
 	docker compose exec $(DOCKER_COMPOSE_EXEC_OPTIONS) node npm --workspace @aminnairi/react-switch test
