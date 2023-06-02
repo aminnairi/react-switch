@@ -4,7 +4,8 @@
   "version": "0.1.0",
   "description": "A simple example project",
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "build": "vite build"
   },
   "devDependencies": {
     "@types/react": "18.2.6",
