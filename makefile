@@ -26,11 +26,11 @@ types: build
 publish: types
 	docker compose exec $(DOCKER_COMPOSE_EXEC_OPTIONS) node npm --workspace @aminnairi/react-switch publish --access public
 
-example: install
+example: types
 	docker compose exec $(DOCKER_COMPOSE_EXEC_OPTIONS) node npm --workspace example start
 
-example-build: build
+example-build: types
 	docker compose exec $(DOCKER_COMPOSE_EXEC_OPTIONS) node npm --workspace example run build
 
-test: build
+test: types
 	docker compose exec $(DOCKER_COMPOSE_EXEC_OPTIONS) node npm --workspace @aminnairi/react-switch test
