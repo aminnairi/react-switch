@@ -2,12 +2,22 @@
 
 ## Versions
 
+- [`0.5.0`](#050)
 - [`0.4.1`](#041)
 - [`0.4.0`](#040)
 - [`0.3.0`](#030)
 - [`0.2.0`](#020)
 - [`0.1.1`](#011)
 - [`0.1.0`](#010)
+
+## 0.5.0
+
+- Added testing ([#33](https://github.com/aminnairi/react-switch/pull/33))
+- Added API interfaces documentation [#35](https://github.com/aminnairi/react-switch/pull/35)
+- Continuous integration ([#36](https://github.com/aminnairi/react-switch/pull/36))
+- added a badge for checking the npm version ([#37](https://github.com/aminnairi/react-switch/pull/37))
+- added bundlephobia badge ([#38](https://github.com/aminnairi/react-switch/pull/38))
+- Added a badge to check the vulnerabilities count ([#39](https://github.com/aminnairi/react-switch/pull/39))
 
 ## 0.4.1
 
