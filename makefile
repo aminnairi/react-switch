@@ -14,7 +14,7 @@ stop:
 
 restart: stop start
 
-install:
+install: start
 	docker compose exec $(DOCKER_COMPOSE_EXEC_OPTIONS) node npm install
 
 build: install
