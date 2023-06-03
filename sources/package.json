@@ -6,7 +6,7 @@
   "version": "0.6.0",
   "homepage": "https://github.com/aminnairi/react-switch/tree/development/sources#readme",
   "license": "MIT",
-  "exports": "./build/index.module.js",
+  "module": "build/index.module.js",
   "main": "build/index.common.js",
   "browser": "build/index.browser.js",
   "bugs": {
