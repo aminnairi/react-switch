@@ -2,6 +2,7 @@
 
 ## Versions
 
+- [`0.6.0`](#060)
 - [`0.5.0`](#050)
 - [`0.4.1`](#041)
 - [`0.4.0`](#040)
@@ -9,6 +10,10 @@
 - [`0.2.0`](#020)
 - [`0.1.1`](#011)
 - [`0.1.0`](#010)
+
+## 0.6.0
+
+- Removed occurrences of the any types for all exposed components [#40](https://github.com/aminnairi/react-switch/pull/40)
 
 ## 0.5.0
 
