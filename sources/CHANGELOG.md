@@ -2,6 +2,7 @@
 
 ## Versions
 
+- [`0.6.1`](#061)
 - [`0.6.0`](#060)
 - [`0.5.0`](#050)
 - [`0.4.1`](#041)
@@ -11,9 +12,13 @@
 - [`0.1.1`](#011)
 - [`0.1.0`](#010)
 
+## 0.6.1
+
+- Removed the exports property in the package.json as it conflicts with Yarn & PNPM ([#42](https://github.com/aminnairi/react-switch/pull/42))
+
 ## 0.6.0
 
-- Removed occurrences of the any types for all exposed components [#40](https://github.com/aminnairi/react-switch/pull/40)
+- Removed occurrences of the any types for all exposed components ([#40](https://github.com/aminnairi/react-switch/pull/40))
 
 ## 0.5.0
 
