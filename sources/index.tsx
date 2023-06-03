@@ -1,24 +1,32 @@
-import { Children, isValidElement } from "react";
+import React, { Fragment, Children, ReactNode, isValidElement } from "react";
 
 export interface SwitchProps {
-  children: any;
+  children: ReactNode;
 }
 
 export interface CaseProps {
   when: boolean;
-  children: any;
+  children: ReactNode;
 }
 
 export interface DefaultProps {
-  children: any;
+  children: ReactNode;
 }
 
 export const Case = ({ children }: CaseProps) => {
-  return children;
+  return (
+    <Fragment>
+      {children}
+    </Fragment>
+  );
 }
 
 export const Default = ({ children }: DefaultProps) => {
-  return children
+  return (
+    <Fragment>
+      {children}
+    </Fragment>
+  );
 }
 
 
@@ -39,14 +47,23 @@ export const Switch = ({ children }: SwitchProps) => {
   });
 
   if (matchingElementFound && isValidElement(matchingElementFound)) {
-    return matchingElementFound;
+    return (
+      <Fragment>
+        {matchingElementFound}
+      </Fragment>
+    );
   }
 
   if (fallbackElementFound && isValidElement(fallbackElementFound)) {
-    return fallbackElementFound;
+    return (<Fragment>
+      {fallbackElementFound}
+    </Fragment>
+    );
   }
 
-  return null;
+  return (
+    <Fragment></Fragment>
+  )
 }
 
 export const DefaultSwitch = Switch;
